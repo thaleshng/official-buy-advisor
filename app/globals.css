@@ -45,6 +45,8 @@
   --radius-4xl: calc(var(--radius) * 2.6);
   --font-sans: var(--font-sora);
   --font-heading: var(--font-sora);
+  --font-poppins: var(--font-poppins);
+  --font-montserrat: var(--font-montserrat);
   --color-brand-royal: var(--brand-royal);
 }
 
@@ -127,6 +129,26 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Nerve Alive — scoped theme (independent from the VisiFlora tokens above) */
+.nervealive {
+  --na-blue: #0b4d8d;
+  --na-white: #ffffff;
+  --na-yellow: #ffff00;
+  --na-ink: #000000;
+  --na-btn-grad: linear-gradient(180deg, #ffb700 20%, #db9d00 80%);
+  --na-hero-grad: radial-gradient(at center center, #0066c9 0%, #042f58 100%);
+}
+
+/* Derila Ergo — scoped theme (independent from the VisiFlora tokens above) */
+.derilaergo {
+  --de-blue: #4277f0;
+  --de-azure: #e6f3ff;
+  --de-check: #98ceff;
+  --de-white: #ffffff;
+  --de-ink: #111111;
+  --de-ink-soft: #4b5563;
 }
 
 /* Official Buy Advisor — scoped theme (independent from the VisiFlora tokens above) */

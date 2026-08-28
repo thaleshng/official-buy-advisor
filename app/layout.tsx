@@ -1,11 +1,23 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Sora } from 'next/font/google'
+import { Sora, Poppins, Montserrat } from 'next/font/google'
 import './globals.css'
 
 const sora = Sora({
   subsets: ['latin'],
   variable: '--font-sora',
+  weight: ['400', '500', '600', '700', '800'],
+})
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  variable: '--font-poppins',
+  weight: ['400', '500', '600', '700'],
+})
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
   weight: ['400', '500', '600', '700', '800'],
 })
 
@@ -28,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <body className={`${sora.variable} antialiased`}>
+      <body className={`${sora.variable} ${poppins.variable} ${montserrat.variable} antialiased`}>
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>
