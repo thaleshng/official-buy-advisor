@@ -1,37 +1,15 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Sora, Poppins, Montserrat, Space_Mono, Roboto } from 'next/font/google'
+import '@fontsource-variable/sora'
+import '@fontsource/poppins/latin-400.css'
+import '@fontsource/poppins/latin-500.css'
+import '@fontsource/poppins/latin-600.css'
+import '@fontsource/poppins/latin-700.css'
+import '@fontsource-variable/montserrat'
+import '@fontsource/space-mono/latin-400.css'
+import '@fontsource/space-mono/latin-700.css'
+import '@fontsource-variable/roboto'
 import './globals.css'
-
-const sora = Sora({
-  subsets: ['latin'],
-  variable: '--font-sora',
-  weight: ['400', '500', '600', '700', '800'],
-})
-
-const poppins = Poppins({
-  subsets: ['latin'],
-  variable: '--font-poppins',
-  weight: ['400', '500', '600', '700'],
-})
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  variable: '--font-montserrat',
-  weight: ['400', '500', '600', '700', '800'],
-})
-
-const spaceMono = Space_Mono({
-  subsets: ['latin'],
-  variable: '--font-space-mono',
-  weight: ['400', '700'],
-})
-
-const roboto = Roboto({
-  subsets: ['latin'],
-  variable: '--font-roboto',
-  weight: ['400', '500', '700'],
-})
 
 export const metadata: Metadata = {
   title: 'Official Buy Advisor | Independent Product Reviews',
@@ -52,7 +30,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-background">
-      <body className={`${sora.variable} ${poppins.variable} ${montserrat.variable} ${spaceMono.variable} ${roboto.variable} antialiased`}>
+      <body className="antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

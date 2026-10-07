@@ -52,6 +52,11 @@
 
 :root {
   color-scheme: light;
+  --font-sora: 'Sora Variable', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-montserrat: 'Montserrat Variable', sans-serif;
+  --font-space-mono: 'Space Mono', monospace;
+  --font-roboto: 'Roboto Variable', sans-serif;
   --background: oklch(0.94 0.02 246);
   --foreground: oklch(0.19 0.09 279);
   --card: oklch(1 0 0);
