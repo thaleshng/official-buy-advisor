@@ -163,3 +163,28 @@
   --oba-gold-strong: oklch(0.6 0.135 66);
   --oba-gold-ink: oklch(0.32 0.06 66);
 }
+
+/* Matsato — scoped theme */
+.matsatoknife {
+  --matsato-ink: #0b0b0b;
+  --matsato-amber: #FF9900;
+  --matsato-white: #ffffff;
+  --matsato-paper: #f4f1eb;
+}
+
+.horsewood {
+  --color-primary-dark: #c94b08;
+  --color-primary: #ff6b1a;
+  --horsewood-ink: #0a0a0a;
+  --horsewood-muted: #8a8580;
+  --horsewood-border: #282421;
+  --horsewood-orange: #ff6b1a;
+}
+
+.prodentim {
+  --prodentim-green: #007953;
+  --prodentim-hero: #76a686;
+  --prodentim-red: #d54545;
+  --prodentim-ink: #272727;
+  font-family: var(--font-roboto), "Helvetica Neue", Arial, sans-serif;
+}

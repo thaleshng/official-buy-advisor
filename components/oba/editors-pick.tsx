@@ -57,6 +57,48 @@ const reviews: Review[] = [
 			"Unlocks deep sleep and pain-free mornings",
 			"Try it risk-free with a satisfaction guarantee"
 		]
+	},
+	{
+		name: "Matsato",
+		href: "/matsatoknife",
+		image: "/images/matsatoknife/clear-header-knife.avif",
+		imageAlt: "Matsato chef knife displayed on a stand",
+		category: "Editor's Choice — Chef Knife",
+		tagline: "Precision-crafted chef knives made for serious kitchen work.",
+		cta: "Read Full Matsato Review",
+		highlights: [
+			"Professional blade geometry built for clean, confident cuts",
+			"Hand-finished steel with a premium chef-ready profile",
+			"Built for home cooks and serious prep routines alike"
+		]
+	},
+	{
+		name: "Horsewood",
+		href: "/horsewood",
+		image: "/images/horsewood/jar-horsewood-3.png",
+		imageAlt: "Three Horsewood supplement bottles",
+		category: "Editor's Choice — Men's Vitality",
+		tagline: "Seven botanical ingredients for daily vitality and stamina.",
+		cta: "Read Full Horsewood Review",
+		highlights: [
+			"Botanical formula designed to support daily male vitality",
+			"Made for natural energy and stamina routines",
+			"Includes a 60-day money-back guarantee"
+		]
+	},
+	{
+		name: "ProDentim",
+		href: "/prodentim",
+		image: "/images/prodentim/introducting_prodentim.png",
+		imageAlt: "ProDentim probiotic bottle with mint and strawberries",
+		category: "Editor's Choice — Oral Health",
+		tagline: "Oral probiotics designed to support healthy teeth and gums.",
+		cta: "Read Full ProDentim Review",
+		highlights: [
+			"Features 3.5 billion probiotic strains",
+			"Designed to support teeth, gums, and fresh breath",
+			"Made to complement your daily oral care routine"
+		]
 	}
 ];
 
