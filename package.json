@@ -32,7 +32,11 @@
   },
   "pnpm": {
     "overrides": {
-      "hono": "4.12.25"
+      "hono": "4.12.25",
+      "proxy-addr": "2.0.8"
     }
+  },
+  "overrides": {
+    "proxy-addr": "2.0.8"
   }
 }
